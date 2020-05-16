@@ -1,12 +1,13 @@
 .main{
-    width:624px;
-   
+    min-width: 15vh;
+    max-width: 70vh;
     border-radius: 16px;
     padding: 32px;
     margin: 16px;
     display: flex;
-    background-color: #f9d39da2;
-    background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+    background-color: #eed0a5a2;
+    background-image: linear-gradient(315deg, #eed0a5ad 0%, #ffd8cb 74%);
+    box-shadow: 10px 5px 5px darkgray;
 
 
 }
@@ -16,15 +17,38 @@
     font-family: Georgia, 'Times New Roman', Times, serif   
 }
 
+.social{
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__logo{
+    opacity: 0.5;
+    width: 50px;
+    height: 50px;
+}
+
+.social__logo:hover{
+    opacity: 1;
+}
 h2{
     margin: 0;
+}
+
+em{
+    
+  color: #cc2b5e; /* fallback for old browsers */
+  color: -webkit-linear-gradient(to left, #cc2b5e, #753a88); /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to left, #cc2b5e, #753a88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 h3{
     margin: 0;
     margin-bottom: 24px;
     font-style: italic;
-    color: darkgray;
+    color:#494646;
 }
 
 img{
