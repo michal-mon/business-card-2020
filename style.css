@@ -1,0 +1,21 @@
+.main{
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.description{
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+body{
+    background-color: aliceblue;
+}
