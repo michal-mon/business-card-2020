@@ -38,11 +38,11 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.description__heading {
+.description__title {
   margin: 0;
 }
 
-.description__heading--special {
+.description__position {
   margin: 0;
   margin-bottom: 24px;
   font-style: italic;
@@ -53,7 +53,7 @@ body {
   line-height: 22px;
 }
 
-.description__text--special {
+.description__special {
   color: #cc2b5e; /* fallback for old browsers */
   color: -webkit-linear-gradient(
     to left,
@@ -72,6 +72,10 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.social__heading{
+  font-weight: normal;
 }
 
 .social__logo {
